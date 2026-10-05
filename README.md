@@ -29,36 +29,7 @@ Tables
 
 In this project, the AI can process both text-based files and images and answer questions based on the uploaded study material.
 
-🏗️ Project Architecture
-                    ┌──────────────────────┐
-                    │       Student        │
-                    └──────────┬───────────┘
-                               │
-                               ▼
-                    ┌──────────────────────┐
-                    │   Streamlit Web UI   │
-                    └──────────┬───────────┘
-                               │
-                 ┌─────────────┼─────────────┐
-                 │             │             │
-                 ▼             ▼             ▼
-              PDF File      Image File    TXT/CSV
-                 │             │             │
-                 ▼             ▼             ▼
-              pypdf           PIL          Pandas
-                 │             │             │
-                 └─────────────┼─────────────┘
-                               │
-                               ▼
-                    ┌──────────────────────┐
-                    │     Google Gemini    │
-                    │         AI           │
-                    └──────────┬───────────┘
-                               │
-                               ▼
-                    ┌──────────────────────┐
-                    │      AI Answer       │
-                    └──────────────────────┘
+
 📁 Project Structure
 multimodal-ai-study-assistant/
 │
